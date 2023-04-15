@@ -1,10 +1,51 @@
 .main-container1 {
-  background-image: url("https://images.unsplash.com/photo-1549534077-1b4f31dd59ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+  background-image: url("https://media0.giphy.com/media/FlodpfQUBSp20/giphy.gif?cid=ecf05e47dx0ildq09dr8tuld3akw0phz0peyu10e69rs562w&rid=giphy.gif&ct=g");
   color: white;
   background-position: center center;
   height: 100vh;
+  background-size: contain; /* change to contain */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  gap: 50px;
+}
+
+.days,
+.hours,
+.mins,
+.seconds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.days p,
+.hours p,
+.mins p,
+.seconds p {
+  margin: 0 2rem;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.days span,
+.hours span,
+.mins span,
+.seconds span {
+  font-size: 1.5rem;
   margin: 0;
 }
