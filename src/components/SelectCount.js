@@ -22,8 +22,8 @@ function SelectCount() {
           onChange={handleSelectChange}
           value={selectedOption}
         >
-          <option value="/">New Years Eve</option>
-          <option value="/Christmas">Christmas</option>
+          <option value="/">Christmas</option>
+          <option value="/NewYears">NewYears</option>
           <option value="/Summer">Summer</option>
         </select>
       </form>

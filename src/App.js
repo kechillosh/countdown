@@ -14,9 +14,9 @@ function App() {
         <SelectCount />
         <Routes>
           <Route>
-            <Route path="/" element={<NewYears />} />
+            <Route path="/" element={<Christmas />} />
+            <Route path="/NewYears" element={<NewYears />} />
             <Route path="/Summer" element={<Summer />} />
-            <Route path="/Christmas" element={<Christmas />} />
           </Route>
         </Routes>
       </Router>
