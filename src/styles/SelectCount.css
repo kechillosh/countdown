@@ -1,16 +1,12 @@
 .Navbar {
-  width: 100%;
-  height: 70px;
-  background-color: #001200;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
   position: absolute;
-  top: 0;
+  left: 44%;
   color: white;
+  top: 10%;
+  border: 2px solid transparent;
+  padding: 40px;
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.3);
+  animation: rainbow-border 2s infinite;
 }
 
 form {
@@ -21,15 +17,29 @@ form {
 
 label {
   margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 select {
   font-size: 1rem;
-  padding: 5px;
+  padding: 10px 20px;
   border-radius: 5px;
   border: none;
-  background-color: #fff;
+  background-color: #ecf0f1;
   color: #333;
   cursor: pointer;
   outline: none;
+  appearance: none;
+  transition: background-color 0.2s ease;
+}
+
+select:hover,
+select:focus {
+  background-color: #bdc3c7;
+}
+
+select option {
+  color: #333;
+  background-color: #fff;
 }

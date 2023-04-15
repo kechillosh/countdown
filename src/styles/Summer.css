@@ -1,0 +1,13 @@
+.main-container3 {
+  background-image: url("https://media2.giphy.com/media/TXvbvcWwnkUjS/giphy.gif?cid=ecf05e474u4j0rkfytim5o9ju1uj4gqzgn4pqrigx2ugblzj&rid=giphy.gif&ct=g");
+  color: black;
+  background-position: center center;
+  height: 100vh;
+  background-size: cover;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 2px;
+}
